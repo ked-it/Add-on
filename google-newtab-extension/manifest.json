@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "New Tab to Google",
+  "version": "1.0",
+  "description": "新しいタブで www.google.com を開きます。",
+  "icons": {
+    "48": "icon.png"
+  },
+  "chrome_url_overrides": {
+    "newtab": "redirect.html"
+  }
+}
+

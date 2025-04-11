@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Open Google on New Tab",
+  "version": "1.0",
+  "description": "Opens www.google.com when a new tab is opened.",
+  "background": {
+    "scripts":[
+    	"./background.js"
+    ]
+  },
+  "permissions": [
+    "tabs"
+  ]
+}
